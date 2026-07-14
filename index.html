@@ -7,9 +7,9 @@
     <title>trishul // mah4dev — offensive security</title>
     <meta name="description"
         content="trishul — offensive security practitioner. Red team, adversary emulation, and reverse engineering. Projects, writeups, and contact." />
-    <meta name="author" content="trishul (mah4dev)" />
+    <meta name="author" content="trishul (0xtrishul)" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="trishul // mah4dev" />
+    <meta property="og:title" content="trishul // 0xtrishul" />
     <meta property="og:description" content="offensive security · adversary emulation · reverse engineering" />
     <meta property="og:url" content="https://trishul.re" />
     <meta name="theme-color" content="#0d0d0d" />
@@ -23,16 +23,16 @@
 <body>
     <!-- crawlable content for search engines -->
     <div class="seo">
-        <h1>trishul — mah4dev</h1>
+        <h1>trishul — 0xtrishul</h1>
         <p>Offensive security practitioner based in Brazil. Red team, adversary emulation, and reverse
             engineering. Builder of Hermes, a C2 framework.</p>
-        <p>GitHub: https://github.com/mah4dev — Site: https://trishul.re</p>
+        <p>GitHub: https://github.com/0xtrishul — Site: https://trishul.re</p>
     </div>
 
     <main class="window" id="win">
         <div class="titlebar">
             <div class="dots"><span class="dot r"></span><span class="dot"></span><span class="dot"></span></div>
-            <div class="title"><b>trishul</b>@mahadev: ~</div>
+            <div class="title"><b>trishul</b>@mah4dev: ~</div>
             <div class="tools">
                 <button class="tbtn" id="crtBtn" aria-pressed="true" title="toggle scanlines">CRT</button>
             </div>
@@ -54,11 +54,11 @@
 
     <noscript>
         <div class="nojs">
-            <h1>trishul // mah4dev</h1>
+            <h1>trishul // 0xtrishul</h1>
             <p>offensive security · adversary emulation · reverse engineering</p>
             <p>São Paulo, BR. I build offensive tooling and break web apps and binaries.</p>
             <p>
-                github: <a href="https://github.com/mah4dev">github.com/mah4dev</a>
+                github: <a href="https://github.com/0xtrishul">github.com/0xtrishul</a>
             </p>
             <p>(this site is interactive — enable JavaScript for the full terminal.)</p>
         </div>
@@ -73,7 +73,7 @@
            ============================================================ */
 
         const USER = "trishul";
-        const HOST = "mahadev";
+        const HOST = "mah4dev";
 
         const ART = String.raw`
 ████████╗██████╗ ██╗███████╗██╗  ██╗██╗   ██╗██╗     
@@ -95,7 +95,7 @@
         const FS = {
             "about.txt": {
                 type: "file", content:
-                    `trishul // mah4dev
+                    `trishul // 0xtrishul
 
 offensive security practitioner based in são paulo, br.
 red team · adversary emulation · reverse engineering.
@@ -125,9 +125,9 @@ off the keyboard: shaivism, ancient egypt, psytrance.
                 type: "file", content:
                     `# reach me
 
-  github    https://github.com/mah4dev
+  github    https://github.com/0xtrishul
   site      https://trishul.re
-  email     contact.sleet284@passinbox.com
+  email     contact@trishul.re
   pgp       run:  cat keys/pgp.asc` },
 
             "projects": {
@@ -140,7 +140,7 @@ off the keyboard: shaivism, ancient egypt, psytrance.
 
   [ add more: create files in projects/ in the source ]
 
-  full list → https://github.com/mah4dev` },
+  full list → https://github.com/0xtrishul` },
                     "hermes.md": {
                         type: "file", content:
                             `# hermes — c2 framework
@@ -158,7 +158,7 @@ off the keyboard: shaivism, ancient egypt, psytrance.
     · etw / amsi patching      · malleable c2 profiles
     · multi-channel fallback
 
-  repo → https://github.com/mah4dev` }
+  repo → https://github.com/0xtrishul` }
                 }
             },
 
@@ -371,7 +371,7 @@ Sgs0DQ==
 <span class="k">loc</span> <span class="v">Brazil</span>
 <span class="k">uptime</span><span class="v"> ${uptime}</span>
 <span class="rule">${"─".repeat(24)}</span>
-<span class="k"></span><span class="v"><a href="https://github.com/mah4dev" target="_blank" rel="noopener">github.com/mah4dev</a></span>`;
+<span class="k"></span><span class="v"><a href="https://github.com/0xtrishul" target="_blank" rel="noopener">github.com/0xtrishul</a></span>`;
             const div = document.createElement("div");
             div.className = "out fetch";
             div.innerHTML = `<pre>${esc(TRIDENT)}</pre><div class="info">${info}</div>`;
